@@ -1,0 +1,31 @@
+Dependencies for Project 'XO Game', Target 'XO Game': (DO NOT MODIFY !)
+F (.\startup.s)(0x5ED6C0F4)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5ED6C0F4)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5ED6C0F4)
+F (.\XO Game.c)(0x66478E9D)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o ".\xo game.o" --omf_browse ".\xo game.crf" --depend ".\xo game.d")
+I (tm4c123gh6pm.h)(0x5ED6C0F4)
+I (Nokia5110.h)(0x5ED6C0F4)
+I (GPIO.h)(0x66478CC6)
+I (Screen.h)(0x6647675D)
+I (game.h)(0x6647917C)
+F (.\GPIO.c)(0x66478E8B)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (tm4c123gh6pm.h)(0x5ED6C0F4)
+I (GPIO.h)(0x66478CC6)
+I (Timer.h)(0x663CF117)
+F (.\Screen.c)(0x66479382)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\screen.o --omf_browse .\screen.crf --depend .\screen.d)
+I (Nokia5110.h)(0x5ED6C0F4)
+I (game.h)(0x6647917C)
+I (draws.h)(0x664763BA)
+I (tm4c123gh6pm.h)(0x5ED6C0F4)
+I (Screen.h)(0x6647675D)
+I (Timer.h)(0x663CF117)
+F (.\draws.c)(0x6647780B)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\draws.o --omf_browse .\draws.crf --depend .\draws.d)
+F (.\game.c)(0x66479271)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (tm4c123gh6pm.h)(0x5ED6C0F4)
+I (Nokia5110.h)(0x5ED6C0F4)
+I (game.h)(0x6647917C)
+I (Screen.h)(0x6647675D)
+I (draws.h)(0x664763BA)
+I (Timer.h)(0x663CF117)
+F (.\Timer.c)(0x663D2035)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (tm4c123gh6pm.h)(0x5ED6C0F4)
